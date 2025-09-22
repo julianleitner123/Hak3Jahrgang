@@ -37,7 +37,7 @@ public class Medium {
     }
 
     public void anzeigen(){
-        System.out.println("Titel: " + Titel + " Wert: " + Wert + " Standort: " + Standort);
+        System.out.println("[Medium] " + "Titel: " + Titel + " Wert: " + Wert + " Standort: " + Standort);
 
     }
 }

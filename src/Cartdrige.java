@@ -38,7 +38,7 @@ public class Cartdrige extends Medium{
     @Override
     public void anzeigen() {
         super.anzeigen();
-        System.out.println("Konsolentyp: " + Konsolentyp + "Cartdige, ist das Set vollständig? " + vollstaendigesSet + "entwicklerstudio" + entwicklerstudio);
+        System.out.println("Konsolentyp: " + Konsolentyp + "Cartdige, ist das Set vollständig? " + vollstaendigesSet + " ,entwicklerstudio: " + entwicklerstudio);
     }
 
 

@@ -13,6 +13,6 @@ public class VHS_Kassette extends Medium {
     @Override
     public void anzeigen() {
         super.anzeigen();
-        System.out.println(" Spieldauer: " + Spieldauer + " Filmqualitaet: " + Filmqualitaet);
+        System.out.println( " [VHS] " + " Spieldauer: " + Spieldauer + " Filmqualitaet: " + Filmqualitaet);
     }
 }
