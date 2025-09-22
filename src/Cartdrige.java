@@ -1,7 +1,7 @@
 public class Cartdrige extends Medium{
     private boolean vollstaendigesSet;
     private String entwicklerstudio;
-    private String Konsolentyp;
+    Enum_fuer_Konsolentyp Konsolentyp;
 
     public boolean isVollstaendigesSet() {
         return vollstaendigesSet;
@@ -11,7 +11,7 @@ public class Cartdrige extends Medium{
         return entwicklerstudio;
     }
 
-    public String getKonsolentyp() {
+    public Enum_fuer_Konsolentyp getKonsolentyp() {
         return Konsolentyp;
     }
 
@@ -23,7 +23,7 @@ public class Cartdrige extends Medium{
         this.entwicklerstudio = entwicklerstudio;
     }
 
-    public void setKonsolentyp(String konsolentyp) {
+    public void setKonsolentyp(Enum_fuer_Konsolentyp konsolentyp) {
         Konsolentyp = konsolentyp;
     }
 
@@ -33,7 +33,7 @@ public class Cartdrige extends Medium{
         System.out.println("Konsolentyp: " + Konsolentyp + "vollstaendigesSet" + vollstaendigesSet + "entwicklerstudio" + entwicklerstudio);
     }
 
-    public Cartdrige(String titel, double wert, String standort, boolean vollstaendigesSet, String entwicklerstudio, String konsolentyp) {
+    public Cartdrige(String titel, double wert, String standort, boolean vollstaendigesSet, String entwicklerstudio, Enum_fuer_Konsolentyp konsolentyp) {
         super(titel, wert, standort);
         this.vollstaendigesSet = vollstaendigesSet;
         this.entwicklerstudio = entwicklerstudio;
