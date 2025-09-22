@@ -2,19 +2,21 @@ import java.util.ArrayList;
 
 public class Medienbibliothek {
 
-    private ArrayList<Medium> bibliothek = new ArrayList();
+    private ArrayList<Medium> medienlist;
 
-    public ArrayList<Medium> getBibliothek() {
-        return bibliothek;
+    public Medienbibliothek() {
+        this.medienlist = new ArrayList();
     }
 
-    public void setBibliothek(ArrayList<Medium> bibliothek) {
-        this.bibliothek = bibliothek;
+    public void mediumhinzufuegen(Medium medium) {
+        this.medienlist.add(medium);
     }
 
-    public Medienbibliothek(ArrayList<Medium> bibliothek) {
-        this.bibliothek = bibliothek;
+    public void alleMedienausgeben(){
 
+        for(Medium medium : this.medienlist){
+            medium.anzeigen();
+        }
     }
-
 }
+
