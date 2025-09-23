@@ -1,3 +1,5 @@
+package Landerer_Modul1;
+
 public class Buch extends Medium{
 
     private String isbn;
@@ -18,6 +20,6 @@ public class Buch extends Medium{
     @Override
     public void anzeigen() {
         super.anzeigen();
-        System.out.println("[Buch]" + "Isbn: " + this.getIsbn());
+        System.out.println("[Landerer_Modul1.Buch]" + "Isbn: " + this.getIsbn());
     }
 }

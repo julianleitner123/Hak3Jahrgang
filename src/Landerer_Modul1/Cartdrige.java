@@ -1,4 +1,6 @@
-public class Cartdrige extends Medium{
+package Landerer_Modul1;
+
+public class Cartdrige extends Medium {
     private boolean vollstaendigesSet;
     private String entwicklerstudio;
     Enum_fuer_Konsolentyp Konsolentyp;

@@ -1,3 +1,5 @@
+package Landerer_Modul1;
+
 public class Medium {
 
     private String Titel;
@@ -37,7 +39,7 @@ public class Medium {
     }
 
     public void anzeigen(){
-        System.out.println("[Medium] " + "Titel: " + Titel + " Wert: " + Wert + " Standort: " + Standort);
+        System.out.println("[Landerer_Modul1.Medium] " + "Titel: " + Titel + " Wert: " + Wert + " Standort: " + Standort);
 
     }
 }

@@ -1,3 +1,5 @@
+package Landerer_Modul1;
+
 public class VHS_Kassette extends Medium {
 
 
