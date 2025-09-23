@@ -17,8 +17,19 @@ public class Medienbibliothek {
     public void alleMedienausgeben(){
 
         for(Medium medium : this.medienlist){
+            System.out.println(" -------------------------- ");
             medium.anzeigen();
         }
+    }
+    public ArrayList<VHS_Kassette> alleVHSMedien() {
+        ArrayList<VHS_Kassette> vhs = new ArrayList();
+        for(Medium medium : medienlist){
+            if(medium instanceof VHS_Kassette){
+                vhs.add((VHS_Kassette) medium);
+            }
+        }
+
+        return vhs;
     }
 }
 

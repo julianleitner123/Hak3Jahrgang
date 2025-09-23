@@ -12,9 +12,10 @@ public class Main {
         Buch herr = new Buch("Herr der Ringe", 50, " Wohnzimmer, OG", "1234456786543563");
 
 
-        medienbibliothek.mediumhinzufuegen(herr);
+
         medienbibliothek.mediumhinzufuegen(vhs);
         medienbibliothek.mediumhinzufuegen(cartdrige);
+        medienbibliothek.mediumhinzufuegen(herr);
 
 
 
