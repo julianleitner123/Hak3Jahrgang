@@ -22,7 +22,11 @@ public class Main {
 
       medienbibliothek.alleMedienausgeben();
 
+        System.out.println(" ---- alle VHS in der Liste -----");
 
+      for(VHS_Kassette VHS : medienbibliothek.alleVHSMedien()){
+          VHS.anzeigen();
+      }
     }
 ;
 
